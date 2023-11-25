@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla con botones</title>
+</head>
+<body>
+    
+<h1>Tabla con Botones</h1>
+
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Nombre</th>
+        <th>Acciones</th>
+    </tr>
+
+    <tr>
+        <td> 1 </td>
+        <td> Almudena</td>
+        <td> 
+            <!-- BOTON INTERACTIVO -->
+            <button> Editar </button>
+            <button> Eliminar </button>
+        </td>
+    </tr>
+
+    <tr>
+        <td> 2 </td>
+        <td> Maria </td>
+        <td> 
+            <!--127.0.0.1 es lo mismo que localhost,es la direccion de nuestro ordenador local-->
+            <button onclick="alert('Hola mundo')"> Mostrar alerta</button>
+
+            <!-- onclick  ejecuta un función de JS-->
+            <!-- console.log= herramienta de depuración para ver mensajes o valores 
+                durante el desarrollo  -->
+            <button onclick="console.log('boton pulsado')"> Console log </button>
+        </td>
+    </tr>
+</table>
+
+
+
+</body>
+</html>
