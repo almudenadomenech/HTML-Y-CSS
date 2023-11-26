@@ -1,0 +1,26 @@
+
+body {
+
+    font-family: 'Roboto', sans-serif;
+    background-color: blue;
+}
+
+.contenedor {
+    margin: 50px;
+    background-color: white;
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+/* Agregar una imagen de fondo */
+.contenedor {
+    background-image: url('imagenCodigo.jpg');
+    background-size: cover;
+    
+}
